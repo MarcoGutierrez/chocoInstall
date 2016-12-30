@@ -21,3 +21,6 @@ This program is less information but more involved for the installation. You wil
 Lastly, you will need chocolatey installed on this machien to get it to work. The command below has to be run in an elevated command prompt. (Administrator)
 
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+
+Bananas
