@@ -22,5 +22,3 @@ Lastly, you will need chocolatey installed on this machien to get it to work. Th
 
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
-
-Bananas
