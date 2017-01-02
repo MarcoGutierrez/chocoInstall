@@ -6,7 +6,7 @@ This fill you will have to add some information on your program that you're inst
 
 You will be specifying the id, title, version, author, owner, and a description. This is primarily for aesthetics but is important nonetheless. Also rename this file to the program you are installing when finished. As you will have to do 
 
-choco build template.nuspec           WHERE template is swapped with the name you chose. 
+cpack      WHERE template is swapped with the name you chose. 
 
 
 
