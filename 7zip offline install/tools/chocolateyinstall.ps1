@@ -5,10 +5,10 @@
 $ErrorActionPreference = 'Stop'; # stop on all errors
 
 #Change
-$packageName= 'Program' # arbitrary name for the package, used in messages
+$packageName= '7zip' # arbitrary name for the package, used in messages
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 #Change
-$fileLocation = Join-Path $toolsDir 'nameOfProgram.exe'
+$fileLocation = Join-Path $toolsDir '7zip.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -16,7 +16,7 @@ $packageArgs = @{
   fileType      = 'exe' #only one of these: exe, msi, msu
   file         = $fileLocation
 #Change
-  softwareName  = 'office16' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
+  softwareName  = '7zip Program' #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
 
   #MSI
   silentArgs    = "/S" # ALLUSERS=1 DISABLEDESKTOPSHORTCUT=1 ADDDESKTOPICON=0 ADDSTARTMENU=0

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>7zip</id>
+    <title>Needed Software</title>
+    <version>16.0.1</version>
+    <authors>Marco Gutierrez</authors>
+    <owners>Self</owners>
+    <description>A small zip and unzipping tool that is free and widely used.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
