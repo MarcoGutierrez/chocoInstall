@@ -1,0 +1,24 @@
+For this Template you will be editing only two files and adding one of your own. 
+
+template.nuspec  :
+
+This fill you will have to add some information on your program that you're installing. 
+
+You will be specifying the id, title, version, author, owner, and a description. This is primarily for aesthetics but is important nonetheless. Also rename this file to the program you are installing when finished. As you will have to do 
+
+choco build template.nuspec           WHERE template is swapped with the name you chose. 
+
+
+
+
+chocolateyinstall.ps1         :
+
+This program is less information but more involved for the installation. You will have to specify the name of the program, its exact name for pathing purposes, the extension type, and silent arguments if they are different than most programs. The file includes other silent parameters to try.
+
+
+
+
+Lastly, you will need chocolatey installed on this machien to get it to work. The command below has to be run in an elevated command prompt. (Administrator)
+
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
